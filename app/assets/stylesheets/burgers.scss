@@ -1,0 +1,78 @@
+// Place all the styles related to the Burgers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+#burger {
+	width: 400px;
+}
+#burger .top-bun {
+	height: 100px;
+	border-radius: 900px 900px 10px 10px;
+	background-color: #a27732;
+	border-top: 9px solid #906725;
+	color: white;
+}
+
+#burger .bottom-bun {
+	background-color: #a27732;
+	border-radius: 10px 10px 50px 50px;
+	height: 60px;
+	border-bottom: 11px solid #724d12;
+	color: white;
+}
+
+#burger .lettuce {
+	border-radius: 8px;
+	background-color: #80d041;
+	height: 25px;
+	border-bottom: 3px solid #0f6d12;
+}
+#burger .tomato {
+	border-radius: 14px;
+	background-color: #f13233;
+	height: 35px;
+	border-bottom: 5px solid #940c0e;
+	color: white;
+}
+#burger .onion {
+	border-radius: 8px;
+	background-color: #b95381;
+	height: 25px;
+	border-bottom: 4px solid #7e1846;
+	color: white;
+}
+#burger .cheese {
+	background-color: #e8ea02;
+	border-radius: 10px;
+	height: 25px;
+	border-bottom: 5px solid #eab902;
+}
+#burger .beef {
+	border-radius: 15px;
+	background-color: #603102;
+	height: 50px;
+	border-bottom: 16px solid #402408;
+	color: white;
+}
+
+#burger .chicken {
+	border-radius: 15px;
+	background-color: tan;
+	height: 40px;
+	border-bottom: 16px solid rgb(156, 133, 102);
+	color: white;
+}
+#burger .cat {
+	border-radius: 15px;
+	background-color: hotpink;
+	height: 40px;
+	border-bottom: 16px solid rgb(211, 85, 148);
+	color: white;
+}
+#burger .salmon {
+	border-radius: 15px;
+	background-color: salmon;
+	height: 40px;
+	border-bottom: 16px solid rgb(218, 108, 96);
+	color: white;
+}

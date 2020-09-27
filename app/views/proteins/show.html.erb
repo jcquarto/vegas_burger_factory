@@ -1,0 +1,24 @@
+<div class="page-header">
+  <%= link_to proteins_path, class: 'btn btn-default' do %>
+    All Proteins
+  <% end %>
+  <%= link_to edit_protein_path(@protein), class: 'btn btn-primary' do %>
+    Edit
+  <% end %>
+  <h1>Show protein</h1>
+</div>
+
+<dl class="dl-horizontal">
+  <dt>Name:</dt>
+  <dd><%= @protein.name %></dd>
+
+  <dt>Description:</dt>
+  <dd><%= @protein.description %></dd>
+
+  <dt>Price:</dt>
+  <dd><%= @protein.price %></dd>
+
+  <dt>Color:</dt>
+  <dd><%= @protein.color %></dd>
+
+</dl>

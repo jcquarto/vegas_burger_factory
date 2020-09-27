@@ -1,0 +1,19 @@
+		<div id="burger" class="text-center">
+			<div class="top-bun">top-bun</div>
+
+      <% @burger.burger_ingredients.each do |bi| %>
+				<% i_name = bi.ingredient.name %>
+				<% bi.quantity.times do %>
+			  	<div class='<%= i_name %>'><%= i_name %></div>
+				<% end %>
+      <% end %>
+			
+      <% @burger.burger_proteins.each do |bp| %>
+				<% p_name = bp.protein.name %>
+				<% bp.quantity.times do %>
+			  	<div class='<%= p_name %>'><%= p_name %></div>
+				<% end %>
+      <% end %>
+
+      <div class="bottom-bun">bottom-bun</div>
+		</div>

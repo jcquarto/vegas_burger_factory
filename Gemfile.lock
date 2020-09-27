@@ -82,6 +82,9 @@ GEM
       zeitwerk (~> 2.2, >= 2.2.2)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
+    annotate (3.1.1)
+      activerecord (>= 3.2, < 7.0)
+      rake (>= 10.4, < 14.0)
     autoprefixer-rails (10.0.0.2)
       execjs
     bcrypt (3.1.16)
@@ -314,6 +317,8 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.7)
+    view_component (2.19.1)
+      activesupport (>= 5.0.0, < 7.0)
     warden (1.2.9)
       rack (>= 2.0.9)
     web-console (4.0.4)
@@ -343,6 +348,7 @@ PLATFORMS
 
 DEPENDENCIES
   administrate!
+  annotate
   bootsnap (>= 1.4.2)
   bootstrap (~> 4.5)
   byebug
@@ -372,6 +378,7 @@ DEPENDENCIES
   spring-watcher-listen (~> 2.0.0)
   turbolinks (~> 5)
   tzinfo-data
+  view_component
   web-console (>= 3.3.0)
   webdrivers
   webpacker (~> 4.0)

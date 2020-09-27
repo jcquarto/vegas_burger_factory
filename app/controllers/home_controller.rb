@@ -7,4 +7,8 @@ class HomeController < ApplicationController
 
   def privacy
   end
+
+  def mo_betta
+    
+  end
 end

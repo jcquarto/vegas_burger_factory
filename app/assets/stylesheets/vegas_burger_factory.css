@@ -1,0 +1,53 @@
+/* ingredients */
+
+#burger .ingredient {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#burger .ingredient-dark {
+	color: white;
+}
+
+#burger div.bun {
+	background-color: sandybrown;
+	height: 60px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#burger div.lettuce {
+	background-color: greenyellow;
+}
+#burger div.onion {
+	background-color: whitesmoke;
+}
+#burger div.pickles {
+	background-color: green;
+}
+#burger div.tomato {
+	background-color: tomato;
+}
+#burger div.cheese {
+	background-color: goldenrod;
+}
+#burger div.mustard {
+	background-color: gold;
+}
+
+/* proteins */
+#burger div.hamburger {
+	background-color: brown;
+	height: 40px;
+}
+#burger div.chicken {
+	background-color: tan;
+	height: 40px;
+}
+#burger div.cat {
+	background-color: hotpink;
+	height: 40px;
+}
+#burger div.salmon {
+	background-color: salmon;
+	height: 40px;
+}
